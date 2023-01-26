@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+   
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    /*-----Resposividade------*/
+     @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+<!-----NAVBAR------------------->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="/img/png-transparent-white-tea-coffee-darjeeling-tea-tea-leaf-grading-black-tea-food-cafe-logo.png" height="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projetos.html">Projects</a></li>
+        <li><a href="/Curriculo - Tamires Porto.docx.pdf">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><!-------FIM-------------->
+  <!----------LINKS SO LADO ESQUERDO-------------------->
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="https://www.linkedin.com/in/tamires-porto/">Linkedin</a></p>
+      <p><a href="https://github.com/Tamiresporto">GitHub</a></p>
+      <p><a href="https://www.codewars.com/users/Tamiresporto">Codewars</a></p>
+    </div><!---------INTRODUÇÃO--------------------->
+    <div class="col-sm-8 text-left"> 
+      <h1>Bem Vindo(a)</h1>
+      <p>Olá, eu sou a Tamires Porto, Desenvolvedor(a) Web Junior.
+        Venha conhecer um pouco da minha experiência profissional, desenvolvimento de sites atráves de html, css, bootstrap, JavaScripts, ReactsJS e MySqL.
+        Amo aplicar minha atitude para desenvolver algo novo.
+        Que tal marcamos de tomar um café?☕</p>
+      <hr>
+      <h3></h3>
+      <img src="/img/1665108129172.jpg" height="300px">
+      <p></p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <img src="/img/2016-05-31-gmail-0.webp" width="100px"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#all"></a></div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<!--------FOOTER---------------->
+<footer class="container-fluid text-center">
+  <p>© 2022 Tamires Porto, Inc. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
