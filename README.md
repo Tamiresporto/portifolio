@@ -7,5 +7,8 @@ Está disponivel meu curriculo em PDF
 <h3>Projects</h3>
 Você encontrará um pouco dos projetos em Squad que fiz parte no BootCamp da Resilia
 
+<h3>Home</h3>
+Um pouco sobre mim e como entrar em contato comigo.
+
 <hr>
  https://tamiresporto.github.io/portifolio/
