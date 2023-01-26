@@ -11,4 +11,4 @@ Você encontrará um pouco dos projetos em Squad que fiz parte no BootCamp da Re
 Um pouco sobre mim e como entrar em contato comigo.
 
 <hr>
- https://tamiresporto.github.io/portifolio/
+Link: https://tamiresporto.github.io/portifolio/
